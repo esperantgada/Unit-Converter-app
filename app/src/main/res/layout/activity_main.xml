@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".MainActivity">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/user_input_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="@string/value_to_convert"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/select_option_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/select_your_option"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/user_input_text_field" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/select_option_text">
+
+                <RadioButton
+                    android:id="@+id/meter_to_decimeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/meter_to_decimeter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/meter_to_centimeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/meter_to_centimeter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/meter_to_millimeter"
+                    android:layout_width="wrap_content"
+                    android:onClick="selectUnit"
+                    android:layout_height="wrap_content"
+                    android:text="@string/meter_to_millimeter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/meter_to_decameter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/meter_to_decameter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/meter_to_hectometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/meter_to_hectometer"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/meter_to_kilometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/meter_to_kilometer"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/decimeter_to_centimeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/decimeter_to_centimeter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/decimeter_to_millimeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/decimeter_to_millimeter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/decimeter_to_meter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/decimeter_to_meter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/decimeter_to_decameter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/decimeter_to_decameter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/decimeter_to_hectometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/decimeter_to_hectometer"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/decimeter_to_kilometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/decimeter_to_kilometer"
+                    tools:ignore="UsingOnClickInXml" />
+            </RadioGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

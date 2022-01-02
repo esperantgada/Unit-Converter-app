@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="value_to_convert">Enter the value to convert</string>
+    <string name="select_your_option">Select your option</string>
+    <string name="meter_to_decimeter">Meter to Decimeter</string>
+    <string name="meter_to_centimeter">Meter to Centimeter</string>
+    <string name="meter_to_millimeter">Meter to Millimeter</string>
+    <string name="meter_to_decameter">Meter to Decameter</string>
+    <string name="meter_to_hectometer">Meter to Hectometer</string>
+    <string name="meter_to_kilometer">Meter to Kilometer</string>
+    <string name="decimeter_to_centimeter">Decimeter to Centimeter</string>
+    <string name="decimeter_to_millimeter">Decimeter to Millimeter</string>
+    <string name="decimeter_to_meter">Decimeter to Meter</string>
+    <string name="convert">CONVERT</string>
+    <string name="result">Result : %s</string>
+    <string name="round_up_value">Round up result?</string>
+    <string name="decimeter_to_decameter">Decimeter to Decameter</string>
+    <string name="decimeter_to_hectometer">Decimeter to Hectometer</string>
+    <string name="decimeter_to_kilometer">Decimeter to Kilometer</string>
+    <string name="convert_again">CONVERT AGAIN</string>
+</resources>
