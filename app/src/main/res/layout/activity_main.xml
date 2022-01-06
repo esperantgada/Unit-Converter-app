@@ -146,6 +146,55 @@
                     android:onClick="selectUnit"
                     android:text="@string/decimeter_to_kilometer"
                     tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/centimeter_to_millimeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/centimeter_to_millimeter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/centimeter_to_decimeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/centimeter_to_decimeter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/centimeter_to_meter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/centimeter_to_meter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/centimeter_to_decameter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/centimeter_to_decameter"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/centimeter_to_hectometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/centimeter_to_hectometer"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <RadioButton
+                    android:id="@+id/centimeter_to_kilometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="selectUnit"
+                    android:text="@string/centimeter_to_kilometer"
+                    tools:ignore="UsingOnClickInXml" />
+
             </RadioGroup>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,4 +18,10 @@
     <string name="decimeter_to_hectometer">Decimeter to Hectometer</string>
     <string name="decimeter_to_kilometer">Decimeter to Kilometer</string>
     <string name="convert_again">GO BACK TO MAIN SCREEN</string>
+    <string name="centimeter_to_millimeter">Centimeter to Millimeter</string>
+    <string name="centimeter_to_decimeter">Centimeter to Decimeter</string>
+    <string name="centimeter_to_meter">Centimeter to Meter</string>
+    <string name="centimeter_to_decameter">Centimeter to Decameter</string>
+    <string name="centimeter_to_hectometer">Centimeter to Hectometer</string>
+    <string name="centimeter_to_kilometer">Centimeter to Kilometer</string>
 </resources>

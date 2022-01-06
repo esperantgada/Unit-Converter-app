@@ -8,7 +8,6 @@ import android.widget.RadioButton
 import androidx.appcompat.app.AppCompatActivity
 import com.striyank.unitconverter.databinding.ActivityMainBinding
 
-//const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
 
@@ -96,6 +95,42 @@ class MainActivity : AppCompatActivity() {
                 R.id.decimeter_to_kilometer -> {
                     if (checked){
                         navigate(0.0001)
+                    }
+                }
+
+                R.id.centimeter_to_millimeter -> {
+                    if (checked){
+                        navigate(10.0)
+                    }
+                }
+
+                R.id.centimeter_to_decimeter -> {
+                    if (checked){
+                        navigate(0.1)
+                    }
+                }
+
+                R.id.centimeter_to_meter -> {
+                    if (checked){
+                        navigate(0.01)
+                    }
+                }
+
+                R.id.centimeter_to_decameter -> {
+                    if (checked){
+                        navigate(0.001)
+                    }
+                }
+
+                R.id.centimeter_to_hectometer -> {
+                    if (checked){
+                        navigate(0.0001)
+                    }
+                }
+
+                R.id.centimeter_to_kilometer -> {
+                    if (checked){
+                        navigate(0.00001)
                     }
                 }
             }
